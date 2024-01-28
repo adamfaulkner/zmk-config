@@ -5,6 +5,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&sk {
+    /delete-property/ release-after-ms;
+    quick-release;
+};
+
 / {
     behaviors {
         ht: hold_tap {
@@ -16,10 +21,6 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
-	&sk: {
-	    /delete-property/ release-after-ms;
-	    quick-release;
-	};
     };
 
     conditional_layers {
