@@ -77,7 +77,7 @@
             &kp BSPC   &sk LGUI   &sk LALT   &sk LSHIFT &sk LCTRL      &kp LEFT  &kp DOWN    &kp UP     &kp RIGHT  &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &none      &none      &kp LBKT   &kp RBKT   &none          &none     &kp K_VOL_UP &kp K_VOL_DOWN &none &none
+            &none      &none      &kp LBKT   &kp RBKT   &none          &none     &kp K_VOL_UP &kp K_VOL_DN &none   &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &none     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
