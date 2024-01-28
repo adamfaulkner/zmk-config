@@ -6,7 +6,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 &sk {
-    /delete-property/ release-after-ms;
+    release-after-ms = <60000>;
     quick-release;
 };
 
