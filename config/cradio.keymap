@@ -60,7 +60,7 @@
             &kp TAB   &kp EQUAL   &kp LPAR   &kp RPAR   &kp UNDER      &sk LCTRL  &sk LSHIFT &sk LALT   &sk LGUI   &kp MINUS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-           &trans     &kp GRAVE   &kp LBRC   &kp RBRC   &kp DEL        &kp ENTER  &kp PG_DN  &kp PG_UP  &kp ESC    &mt RCTRL BSLH
+           &trans     &kp GRAVE   &kp LBKT   &kp RBKT   &kp DEL        &kp ENTER  &kp PG_DN  &kp PG_UP  &kp ESC    &mt RCTRL BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &kp SQT    &kp DQT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -77,7 +77,7 @@
             &kp BSPC   &sk LGUI   &sk LALT   &sk LSHIFT &sk LCTRL      &kp LEFT  &kp DOWN    &kp UP     &kp RIGHT  &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &none      &none      &kp LBKT   &kp RBKT   &none          &none     &kp K_VOL_UP &kp K_VOL_DN &none   &none
+            &none      &none      &kp LBRC   &kp RBRC   &none          &none     &kp K_VOL_DN &kp K_VOL_UP &none   &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &none     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
